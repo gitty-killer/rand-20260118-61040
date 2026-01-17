@@ -1,0 +1,13 @@
+{
+  "project_title": "Clinic Appointment Planner",
+  "goal": "Summarize appointment load and reduce wait times.",
+  "entity_name": "appointment",
+  "amount_label": "wait_minutes",
+  "score_label": "priority_score",
+  "categories": [
+    "checkup",
+    "lab",
+    "consult",
+    "therapy"
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "id": "appointment-01",
+      "name": "appointment_01",
+      "category": "checkup",
+      "amount": 13,
+      "score": 53,
+      "status": "ok"
+    },
+    {
+      "id": "appointment-02",
+      "name": "appointment_02",
+      "category": "lab",
+      "amount": 16,
+      "score": 56,
+      "status": "ok"
+    },
+    {
+      "id": "appointment-03",
+      "name": "appointment_03",
+      "category": "consult",
+      "amount": 19,
+      "score": 59,
+      "status": "ok"
+    },
+    {
+      "id": "appointment-04",
+      "name": "appointment_04",
+      "category": "therapy",
+      "amount": 22,
+      "score": 62,
+      "status": "needs_review"
+    },
+    {
+      "id": "appointment-05",
+      "name": "appointment_05",
+      "category": "unknown",
+      "amount": 25,
+      "score": 65,
+      "status": "ok"
+    },
+    {
+      "id": "appointment-06",
+      "name": "appointment_06",
+      "category": "lab",
+      "amount": 28,
+      "score": 68,
+      "status": "ok"
+    },
+    {
+      "id": "appointment-07",
+      "name": "appointment_07",
+      "category": "consult",
+      "amount": 31,
+      "score": 71,
+      "status": "ok"
+    },
+    {
+      "id": "appointment-08",
+      "name": "appointment_08",
+      "category": "therapy",
+      "amount": 34,
+      "score": 74,
+      "status": "needs_review"
+    },
+    {
+      "id": "appointment-09",
+      "name": "appointment_09",
+      "category": "checkup",
+      "amount": 37,
+      "score": 77,
+      "status": "ok"
+    },
+    {
+      "id": "appointment-10",
+      "name": "appointment_10",
+      "category": "lab",
+      "amount": 40,
+      "score": 80,
+      "status": "ok"
+    },
+    {
+      "id": "appointment-11",
+      "name": "appointment_11",
+      "category": "consult",
+      "amount": 43,
+      "score": 83,
+      "status": "ok"
+    },
+    {
+      "id": "appointment-12",
+      "name": "appointment_12",
+      "category": "therapy",
+      "amount": 46,
+      "score": 86,
+      "status": "needs_review"
+    }
+  ],
+  "rules": {
+    "min_amount": 5,
+    "max_amount": 60,
+    "allowed_statuses": [
+      "ok",
+      "needs_review",
+      "blocked"
+    ]
+  },
+  "expected": {
+    "total_amount": 354,
+    "avg_score": 69.5,
+    "top_item": "appointment-12",
+    "issue_count": 1
+  }
+}
